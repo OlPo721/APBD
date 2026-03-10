@@ -1,0 +1,18 @@
+# Build results
+bin/
+obj/
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
