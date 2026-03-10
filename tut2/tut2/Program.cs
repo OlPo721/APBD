@@ -4,11 +4,22 @@
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Enter first number:");
-            int a = int.Parse(Console.ReadLine());
+
+            if (!int.TryParse(Console.ReadLine(), out int a))
+            {
+                Console.WriteLine("Invalid input");
+                return;
+            }    
 
             Console.WriteLine("Enter second number:");
-            int b = int.Parse(Console.ReadLine());
+            
+            if (!int.TryParse(Console.ReadLine(), out int b))
+            {
+                Console.WriteLine("Invalid input");
+                return;
+            }
 
             double avg = StatisticsHelper.Average(a, b);
 
