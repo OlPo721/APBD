@@ -9,7 +9,7 @@
 
             if (!int.TryParse(Console.ReadLine(), out int a))
             {
-                Console.WriteLine("Invalid input");
+                Console.WriteLine("Invalid input. Please enter a valid integer.");
                 return;
             }    
 
@@ -17,7 +17,7 @@
             
             if (!int.TryParse(Console.ReadLine(), out int b))
             {
-                Console.WriteLine("Invalid input");
+                Console.WriteLine("Invalid input. Please enter a valid integer.");
                 return;
             }
 
