@@ -21,6 +21,9 @@
             double avg = StatisticsHelper.Average(a, b);
             int[] sampleValues = { a, b, 10 };
             double arrayAvg = StatisticsHelper.CalculateAverage(sampleValues);
+            
+            int min = StatisticsHelper.CalculateMin(sampleValues);
+            Console.WriteLine($"Minimum: {min}");
 
             Console.WriteLine($"Average: {avg}");
             Console.WriteLine($"Array average: {arrayAvg}");
