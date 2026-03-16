@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter first number:");
+            Console.WriteLine("Please enter the first integer:");
             if (!int.TryParse(Console.ReadLine(), out int a))
             {
                 Console.WriteLine("Invalid input. Please enter a valid integer.");
